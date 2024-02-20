@@ -8,6 +8,16 @@ namespace Classes
 {
     public class Car
     {
+        //default constructor
+        public Car() { }
+
+        public Car(string make, string model, int year)
+        {
+            Make = make;
+            Model = model;
+            Year = year;
+        }
+
         //public properties 
         public string Make {  get; set; }
         public string Model { get; set; }
